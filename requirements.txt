@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+transformers
+torch # or tensorflow, depending on your model's framework
+accelerate # for faster loading and inference with large models
+bitsandbytes # often used for quantization, which can help with memory
+sentencepiece # dependency for Gemma's tokenizer
+protobuf
+peft
